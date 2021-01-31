@@ -1,0 +1,32 @@
+.Todo {
+	padding: 0;
+	list-style-position: outside;
+	margin-bottom: 20px;
+}
+
+.Todo div {
+	display: block;
+}
+
+.Todo p {
+	float: left;
+	margin: 0;
+}
+
+.Todo button {
+	transition-duration: 0.3s;
+	float: right;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: rgb(255, 93, 93);
+	border: 2px solid rgb(255, 93, 93);
+	background-color: rgba(255, 93, 93, 0);
+	font-weight: bold;
+}
+
+.Todo button:hover {
+	transition-duration: 0.3s;
+	color: white;
+	background-color: rgb(255, 93, 93);
+}
